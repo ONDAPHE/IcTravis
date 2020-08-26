@@ -5,7 +5,7 @@
 			
                echo ("Bonjour !");
             } else {
-               echo "Bonsoir Mr!";
+               echo "Bonsoir !";
             } 
          
 	?>
