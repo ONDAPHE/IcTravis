@@ -2,8 +2,13 @@ language: php
 php:
   - 7.3.12
 
-  #install :
-   #- composer install
+#install :
+  #- composer install
 
 script :
   - echo "skipping tests"
+
+deploy:
+  provider: heroku
+  api_key: e0d77fe4-6ddc-4612-a017-85d719972407
+  app: myfirsticdc
